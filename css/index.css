@@ -2,7 +2,7 @@
   width: 100%;
   padding: 14px 0 10px;
   margin: 0;
-  background-color: #dfdfdf;
+  background-color: rgba(246, 246, 246, 0.95);
   border-bottom: 2px solid #F1F1F1;
 }
 .nav-bar-font {
@@ -180,7 +180,7 @@ p {
   width: 100%;
   padding: 14px 0 10px;
   margin: 0;
-  background-color: #dfdfdf;
+  background-color: rgba(246, 246, 246, 0.95);
   border-bottom: 2px solid #F1F1F1;
   position: fixed;
   top: 0;
