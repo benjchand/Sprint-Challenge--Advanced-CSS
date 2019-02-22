@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -160,6 +163,29 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  width: 100%;
+  padding: 14px 0 10px;
+  margin: 0;
+  background-color: #F6F6F6;
+  border-bottom: 2px solid #F1F1F1;
+}
+.header .nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav-bar nav {
+  padding: 19px 0 0 ;
+}
+.header .nav-bar a {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0 15px 0;
+  text-decoration: none;
+  color: #454A59;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -172,6 +198,9 @@ footer {
 }
 .home .intro h2 {
   padding: 15px;
+}
+.home .intro .Earth {
+  border-radius: 4px;
 }
 .home .intro p {
   padding: 0 15px;
