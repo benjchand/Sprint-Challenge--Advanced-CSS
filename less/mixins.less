@@ -1,1 +1,33 @@
 // Mixins Here
+.header-org-font {
+    width: 100%;
+    padding: 14px 0 10px;
+    margin: 0;
+    background-color: rgba(246, 246, 246, 0.95);
+    border-bottom: 2px solid @nav-border;
+}
+
+.nav-bar-font {
+    color: @nav-font;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.button-style(@width; @height;) {
+    background-color: @btn-bg-color;
+    color: white;
+    height: @height;
+    width: @width;
+    border-radius: 5px;
+    border: 1px solid @btn-bg-color;
+    font-size: 1.8rem;
+    transition-duration: .4s;
+    &:hover {
+        background-color: white;
+        color: @btn-bg-color;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+}
+
